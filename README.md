@@ -19,11 +19,13 @@ To apply this reconstruction pipeline to your own neutron tomography dataset, pl
 + Fusion / masking settings used in post-processing:
    `fuse_recon_with_mask()` → `radius_cut`, `sigma_blur`
 
-## Project Structure  
-`├── main.py` **Main pipeline: loading → preprocessing → reconstruction → post-processing**
+## Project Structure 
+```
+├── main.py, Main pipeline: loading → preprocessing → reconstruction → post-processing
 
-`├── preprocessing.py` **Ring, stripe, and spike artifact removal methods**
+├── preprocessing.py, Ring, stripe, and spike artifact removal methods
 
-`├── ring_and_fusion.py` **Soft ring removal and Imaging fusion**
+├── ring_and_fusion.py, Soft ring removal and Imaging fusion
 
-`└── README.md`
+└── README.md
+```
